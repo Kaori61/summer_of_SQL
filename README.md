@@ -99,7 +99,6 @@ SQL query: [Investigating suspect](4_investigating_suspect.sql)
 <summary> Click to reveal the murder! (Spoiler)</summary>
 
 ![Suspect](images/suspect.png)
-![alt text](image.png)
 
 </details>
 
