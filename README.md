@@ -1,4 +1,4 @@
-# SQL Murder Mystery | Investigation & Solution
+# SQL Murder Mystery Solution
 
 ## Overview
 
