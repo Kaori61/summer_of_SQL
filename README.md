@@ -2,7 +2,7 @@
 
 ## Overview
 
-This documents my solution to the [SQL Murder Mystery](https://mystery.knightlab.com/).
+This documents my solution to the [SQL Murder Mystery](https://mystery.knightlab.com/)
 
 The challenge involves investigating a fictional murder using SQL queries to analyse evidence, identify witnesses, examine suspects, and solve the case.
 
@@ -21,7 +21,7 @@ WHERE type = 'murder'
 AND lower(city) = 'sql city'
 AND date = 20180115;
 ```
-View SQL script: [Crime Scene](1_crime_scene.sql)
+View SQL script: [Crime Scene](1_murder_mystery/1_crime_scene.sql)
 
 
 **Findings:** ![First Clue](images/first_clue.png)
@@ -43,7 +43,7 @@ FROM person
 WHERE address_street_name = 'Northwestern Dr';
 ```
 
-View full SQL script: [Two witnesses](2_identify_witnesses.sql)
+View full SQL script: [Two witnesses](1_murder_mystery/2_identify_witnesses.sql)
 
 **Findings:** ![1st witness](images/1st_witness.png)
 ![2nd witness](images/2nd_witness.png)
@@ -62,7 +62,7 @@ JOIN person p
 	ON p.id = i.person_id
 WHERE id = 14887 OR id = 16371;
 ```
-SQL script: [Interviews](3_investigating_interviews.sql)
+SQL script: [Interviews](1_murder_mystery/3_investigating_interviews.sql)
 
 **Findings**
 ![Witness transcript](images/witness_transcript.png)
@@ -92,7 +92,7 @@ WHERE check_in_date = 20180109
 AND LOWER(membership_status) = 'gold'
 AND plate_number like '%H42W%';
 ```
-SQL query: [Investigating suspect](4_investigating_suspect.sql)
+SQL query: [Investigating suspect](1_murder_mystery/4_investigating_suspect.sql)
 
 **Findings:** 
 <details>
@@ -115,7 +115,7 @@ After analysing the available evidence, I identified the culprit and verified my
 
 **SQL query** 
 
-Click here to see: [Murder's interview transcript](5_murders_interview_transcript.sql)
+Click here to see: [Murder's interview transcript](1_murder_mystery/5_murders_interview_transcript.sql)
 
 **Findings**
 ![Murder's transcript](images/murders_transcript.png)
@@ -146,7 +146,7 @@ AND LOWER(car_model) = 'model s'
 AND LOWER(event_name) = 'sql symphony concert'
 AND f.date like '201712%';
 ```
-SQL script: [Final Investigation](6_final_investigation.sql)
+SQL script: [Final Investigation](1_murder_mystery/6_final_investigation.sql)
 
 <details>
 <summary> Click to reveal the person behind the murder (Spoiler)</summary>
