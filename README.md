@@ -1,8 +1,5 @@
 # Summer of SQL 
 
-Welcome to my Summer of SQL repository!
-
-## About This Project
 This repository documents my SQL learning journey, including practice exercises, queries, and projects.
 
 ## Skills Practised
